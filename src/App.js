@@ -5,6 +5,8 @@ import React, { useState, useEffect } from 'react';
 import image1 from './1.PNG';
 import image2 from './2.PNG';
 import image3 from './3.PNG';
+import image4 from './4.PNG';
+import image5 from './5.PNG';
 
 const supabaseUrl = 'https://eeqyelxcdbfzmecbzofh.supabase.co';
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVlcXllbHhjZGJmem1lY2J6b2ZoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDc3NDQ1NTksImV4cCI6MjAyMzMyMDU1OX0.kvpIhHj901jd2z7jpSTaq6c0NLcZdpnBR64Z66_C78w';
@@ -64,6 +66,8 @@ function App() {
     <img src={image1} alt="image1" />
     <img src={image2} alt="image2" />
     <img src={image3} alt="image3" />
+    <img src={image4} alt="image4" />
+    <img src={image5} alt="image5" />
     </div>
   );
 }
