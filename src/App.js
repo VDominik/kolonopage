@@ -2,11 +2,11 @@ import './App.css';
 import { createClient } from "@supabase/supabase-js";
 import QRCode from "qrcode";
 import React, { useState, useEffect } from 'react';
-import image1 from './1.png';
-import image2 from './2.png';
-import image3 from './3.png';
-import image4 from './4.png';
-import image5 from './5.png';
+import image1 from './image1.png';
+import image2 from './image2.png';
+import image3 from './image3.png';
+import image4 from './image4.png';
+import image5 from './image5.png';
 
 const supabaseUrl = 'https://eeqyelxcdbfzmecbzofh.supabase.co';
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVlcXllbHhjZGJmem1lY2J6b2ZoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDc3NDQ1NTksImV4cCI6MjAyMzMyMDU1OX0.kvpIhHj901jd2z7jpSTaq6c0NLcZdpnBR64Z66_C78w';
